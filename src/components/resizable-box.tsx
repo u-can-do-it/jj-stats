@@ -3,6 +3,8 @@ import { ResizableBox as ReactResizableBox } from "react-resizable";
 import "react-resizable/css/styles.css";
 
 export default function ResizableBox({
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-expect-error
   children,
   width = 600,
   height = 300,
