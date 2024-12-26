@@ -40,7 +40,14 @@ function App() {
   return (
     <>
       {data.length === 0 && <p>Loading...</p>}
-      <div>
+      <div
+        style={{
+          display: "flex",
+          gap: "0.2rem",
+          flexWrap: "wrap",
+          maxWidth: "95vw",
+        }}
+      >
         {keys.map((key) => (
           <button
             key={key}
